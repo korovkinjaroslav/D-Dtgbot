@@ -2,13 +2,12 @@ import telebot
 from telebot import types
 import openai
 from openai import OpenAI
-import requests
 from deep_translator import GoogleTranslator
 
 token = '6859864173:AAHOQlg-Amjvth-tK8hr8jvaRKNS1UrRh4g'
 bot = telebot.TeleBot(token)
 client = OpenAI(
-    api_key="sk-Wt_ftNYg9TNJcnFJ3jfAmgT5lyqiifi0ThC7kYgrbQT3BlbkFJ8JQdimGrtKrNuiiE_dmeozWY8tOZbJpbvKiuroD_QA")
+    api_key="sk-2L2V19jO1g4XQtHiPJJ1YrDBiRXUeblILAdVrB1QQET3BlbkFJ5WIZvUspaCbrjcNYIRKzmKj3i2d_PurS8kmbD13lIA")
 global messages
 messages = {}
 
