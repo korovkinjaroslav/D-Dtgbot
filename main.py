@@ -4,10 +4,10 @@ import openai
 from openai import OpenAI
 from deep_translator import GoogleTranslator
 
-token = '6859864173:AAHOQlg-Amjvth-tK8hr8jvaRKNS1UrRh4g'
+token = 'your token'
 bot = telebot.TeleBot(token)
 client = OpenAI(
-    api_key="sk-rUcwd46Ejd1Iy_J_SoS4bSbIeckQOtGwssCwh199tfT3BlbkFJPU3L-X54XjkaIcre4Bqe-b-j0y2fgU7P5Sz0Cb91cA")
+    api_key="your key")
 global messages
 messages = {}
 
