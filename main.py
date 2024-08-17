@@ -7,7 +7,7 @@ from deep_translator import GoogleTranslator
 token = '6859864173:AAHOQlg-Amjvth-tK8hr8jvaRKNS1UrRh4g'
 bot = telebot.TeleBot(token)
 client = OpenAI(
-    api_key="sk-GcAdRllm17MyL0oJXMuPUuVmzaYRh8neYMr6UCW41vT3BlbkFJoAKJi2-hdsoUCE2r5UPUhxIEW3xmAGgx42s7RUv8cA")
+    api_key="sk-rUcwd46Ejd1Iy_J_SoS4bSbIeckQOtGwssCwh199tfT3BlbkFJPU3L-X54XjkaIcre4Bqe-b-j0y2fgU7P5Sz0Cb91cA")
 global messages
 messages = {}
 
